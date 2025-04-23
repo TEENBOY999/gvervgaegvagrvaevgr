@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(135deg,aqua, blue);
+}
+
+.li_item {
+    list-style: none;
+
+ 
+
+}
+
+.img{
+    width: 150px;
+    height: 200px;
+}
+
+
+.list {
+    width: 170px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    height: 360px;
+    overflow: hidden;
+    list-style: none;
+ transition: 2s;
+ cursor: pointer;
+    background-color: blue;
+}
+.img {
+    border-radius: 10px;
+}
+
+.h1 {
+    background: linear-gradient( blue, aqua);
+    background-clip: text;
+    color: transparent;
+    font-size: 100px;
+    text-align: center;
+}
+.list-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list:hover {
+background-color: black;
+color: red;
+}
